@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER Corentin Kerisit "c@42.am"
+MAINTAINER P2Pvalue UCM "p2pv@ucm.es"
 
 RUN echo deb http://ftp.debian.org/debian/ jessie main contrib non-free > /etc/apt/source.list
 

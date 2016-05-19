@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cerisier/docker-prerender.git"
+    "url": "https://github.com/p2pvalue/docker-prerender.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cerisier/docker-prerender/issues"
+    "url": "https://github.com/p2pvalue/docker-prerender/issues"
   },
-  "homepage": "https://github.com/cerisier/docker-prerender"
+  "homepage": "https://github.com/p2pvalue/docker-prerender"
 }
