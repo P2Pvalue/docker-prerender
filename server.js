@@ -4,7 +4,12 @@ var server = prerender({
 	workers: process.env.PHANTOM_CLUSTER_NUM_WORKERS,
 	iterations: process.env.PHANTOM_WORKER_ITERATIONS || 10,
 	phantomBasePort: process.env.PHANTOM_CLUSTER_BASE_PORT || 12300,
-        phantomArguments: ['--load-images=false','--ignore-ssl-errors=true','--ssl-protocol= tlsv1', '--disk-cache=true'],
+        phantomArguments: {
+          '--load-images': false,
+          '--ignore-ssl-errors': true,
+          '--ssl-protocol': 'tlsv1',
+          '--disk-cache': true
+        },
 	messageTimeout: process.env.PHANTOM_CLUSTER_MESSAGE_TIMEOUT
     });
 
